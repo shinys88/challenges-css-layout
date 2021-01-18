@@ -1,0 +1,76 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  background-color:#ffffff;
+  padding:15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin:0 auto;
+}
+
+#container {
+  width:100%;
+  height:90vh;
+  display: grid;
+  /* gap:10px; */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+#container .box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+
+#container .box:nth-child(n+1):nth-child(-n+3){
+  grid-column: span 2;
+  grid-row: span 2;
+  font-size:40px;
+}
+
+#container .box:nth-child(n+4):nth-child(-n+7){
+  font-size:20px;
+}
+
+
+.melon_bg{
+  background-color:#dae7de;
+  color:#f44607;
+}
+
+.green_bg{
+  background-color: #008a69;
+  color:#fcfefe;
+}
+
+.orange_bg{
+  background-color:#f44607;
+  color:#dae7de;
+}
+
+.pink_bg{
+  background-color: #f7abc5;
+  color:#f44607;
+}
+
+.purple_bg{
+  background-color: #5f5fa9;
+  color:#fff;
+}
+
+.yellow_bg{
+  background-color: #ffc128;
+  color:#f44607;
+}
+
+.redpink_bg{
+  background-color: #f97374;
+  color:#fff;
+}
+
+
+

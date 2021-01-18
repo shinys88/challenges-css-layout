@@ -1,0 +1,107 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+
+#container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding:50px;
+}
+
+#container .title{
+  font-size:44px;
+  font-weight: 500;
+  padding:20px 0;
+}
+
+#container .grid-wrap{
+  width:100%;
+  height:100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px,max-content));
+  grid-template-rows: repeat(auto-fit, minmax(max-content,1fr));
+
+}
+
+
+#container .grid-wrap > div{
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  padding:10% 20%;
+}
+
+#container .grid-wrap > div h1{
+  font-weight: 600;
+  font-size:13px;
+  text-align: center;
+}
+
+#container .grid-wrap > div h2{
+  font-size:10px;
+  text-align: center;
+}
+
+
+#container .grid-wrap > div:nth-child(1){
+  background:#bfbda7;
+}
+
+#container .grid-wrap > div:nth-child(2){
+  background-image: url('./image/img1.jpg');
+  background-position: center center;
+  background-size: auto 100%;
+}
+
+#container .grid-wrap > div:nth-child(3){
+  background:#fe4814;
+}
+
+#container .grid-wrap > div:nth-child(4){
+  background-image: url('./image/img2.jpg');
+  background-position: center center;
+  background-size: auto 100%;
+}
+
+#container .grid-wrap > div:nth-child(5){
+  background:#847e96;
+}
+
+#container .grid-wrap > div:nth-child(6){
+  background:#d0ff71;
+}
+
+#container .grid-wrap > div:nth-child(7){
+  background:#993433;
+}
+
+#container .grid-wrap > div:nth-child(8){
+  background:#3aaafa;
+}
+
+#container .grid-wrap > div:nth-child(9){
+  background-image: url('./image/img3.jpg');
+  background-position: center center;
+  background-size: auto 100%;
+}
+
+#container .grid-wrap > div:nth-child(10){
+  background:#41907a;
+}
+
+#container .grid-wrap > div:nth-child(11){
+  background-image: url('./image/img4.jpg');
+  background-position: center center;
+  background-size: auto 100%;
+}
+
+#container .grid-wrap > div:nth-child(12){
+  background:#e3c4e5;
+}
