@@ -38,10 +38,6 @@ table td {
   padding:5px 10px;
 }
 
-#container .box:nth-child(10) .title{
-  padding-bottom:initial;
-}
-
 .title{
   font-size:11px;
   text-transform: uppercase;
@@ -142,9 +138,9 @@ h2{
 #container .box:nth-child(10){
   grid-column: span 1;
   grid-row: span 2;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between; */
 }
 
 #container .box:nth-child(11){
